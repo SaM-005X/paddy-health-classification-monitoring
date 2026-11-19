@@ -31,7 +31,11 @@ An edge-ready, machine learning-powered health assessment and threshold-indicati
 paddy-health-monitoring/
 ├── backend/                  # FastAPI REST service & database
 │   ├── app/                  # Application code (API endpoints, services)
+<<<<<<< HEAD
 │   ├── models/               # Serialized models (.keras, .tflite) and metrics
+=======
+│   ├── models/               # Serialized models (.h5, .tflite) and metrics
+>>>>>>> 01d314d (Initial commit: AI-powered Paddy Health Classification & Monitoring System)
 │   └── requirements.txt      # Python dependencies
 ├── ml_pipeline/              # Dataset builders, model training & evaluation
 │   ├── data/                 # Raw and processed datasets (4 classes)
@@ -47,6 +51,7 @@ paddy-health-monitoring/
 
 ---
 
+<<<<<<< HEAD
 ## 4. Quick Start
 
 ### Start Local Servers
@@ -66,3 +71,14 @@ npm install
 npm run dev
 ```
 Open [http://localhost:3000](http://localhost:3000) in your browser.
+=======
+## 4. Development Workflow
+
+1. **Stage 1:** Feasibility Analysis & Dataset Mapping *(Completed)*
+2. **Stage 2:** Dataset Sourcing, Curation & Preprocessing for the 4 Classes
+3. **Stage 3:** Model Training (MobileNetV2 Transfer Learning) & TFLite Quantization
+4. **Stage 4:** Model Evaluation (Confusion Matrix, Precision/Recall/F1, Threshold Tuning)
+5. **Stage 5:** FastAPI Backend Service Implementation
+6. **Stage 6:** React Frontend & Dashboard Development
+7. **Stage 7:** End-to-End System Testing & Raspberry Pi Deployment Validation
+>>>>>>> 01d314d (Initial commit: AI-powered Paddy Health Classification & Monitoring System)

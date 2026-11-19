@@ -1,0 +1,74 @@
+{
+  "model_name": "MobileNetV2 (4-Class Paddy Health)",
+  "input_resolution": [
+    224,
+    224,
+    3
+  ],
+  "classes": [
+    "Healthy",
+    "Water_Stressed",
+    "Nutrient_deficient",
+    "Diseased"
+  ],
+  "total_test_samples": 72,
+  "accuracy": 1.0,
+  "macro_f1": 1.0,
+  "weighted_f1": 1.0,
+  "class_metrics": {
+    "Healthy": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 18
+    },
+    "Water_Stressed": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 18
+    },
+    "Nutrient_deficient": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 18
+    },
+    "Diseased": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1_score": 1.0,
+      "support": 18
+    }
+  },
+  "confusion_matrix": [
+    [
+      18,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      18,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      18,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      18
+    ]
+  ],
+  "threshold_policy": {
+    "default_threshold": 0.65,
+    "margin_uncertainty_threshold": 0.15
+  }
+}

@@ -1,0 +1,48 @@
+# Python virtual environment
+.venv/
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Node / Frontend
+node_modules/
+frontend/dist/
+frontend/node_modules/
+.npm
+.eslintcache
+
+# Database & Runtime
+backend/paddy_history.db
+*.sqlite3
+*.log
+
+# Environment variables & secrets
+.env
+.env.local
+.env.*.local
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
